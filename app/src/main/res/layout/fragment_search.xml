@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SearchFragment">
+
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/pic3"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/sea_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:text="Click Here"
+        android:layout_marginLeft="190dp"
+        android:backgroundTint="#8b4513"
+        android:textColor="#c0c0c0"
+        android:background="@color/cardview_shadow_start_color"/>
+
+    <TextView
+        android:id="@+id/text_search"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"
+        android:text="Search nearest StarBucks"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</RelativeLayout>
